@@ -1,0 +1,46 @@
+.fuel-cost {
+    table {
+        width: 100%;
+        .table-title {
+            background: #043C77;
+            height: 56px;
+            .table-title-item {
+                color: #FFFFFF;
+                padding: 20px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 16px;
+            }
+        }
+        .table-body {
+            &::before {
+                height: 20px;
+                display: table-row;
+                content: '';
+            }
+        }
+        tr {
+            border: 1px solid #E7E7E7;
+        }
+        tr > td {
+            padding: 20px;
+            border: 1px solid #E7E7E7;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+        }
+        .table-name {
+            background: #098FCF;
+            color: #FFFFFF;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+}

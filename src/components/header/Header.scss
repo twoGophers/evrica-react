@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 78px;
+    position: relative;
+    &__logo {
+        position: absolute;
+        left: 0;
+        top: 8px;
+    }
+    &__contact {
+        display: flex;
+        align-items: center;
+        .phone {
+            display: flex;
+            flex-direction: row;
+            margin-right: 35px;
+            &__number {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 12px;
+            }
+        }
+    }
+}

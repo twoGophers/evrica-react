@@ -1,0 +1,104 @@
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        margin-bottom: 48px;
+    }
+    &__quick-order {
+        padding: 49px 192px 43px 82px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+        .title-block {
+            span {
+                color: #098FCF;
+            }
+        }
+        .delivery-form {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-top: 30px;
+            .form-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 33.3%;
+                margin-right: 14px;
+                label, .invalid {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+                .invalid {
+                    margin-top: 8px;
+                    color: red;
+                    transition: 0.3s;
+                }
+                .form-input {
+                    border: 1px solid #D5D5D5;
+                    height: 46px;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 15px;
+                    margin-top: 8px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #565656;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .approval-checkbox {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            .checkbox__input {
+                -webkit-appearance: none;
+                appearance: none;
+                position: absolute;
+            }
+            // .checkbox__input:checked + .checkbox__label::before {
+            //     background: greenyellow;
+            // }
+            .checkbox__input:checked + .checkbox__label::after {
+                opacity: 1;
+            }
+            .checkbox__label {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                padding-left: 34px;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid #ccc;
+                    background: #fff;
+                    position: absolute;
+                    top: -2px;
+                    left: 0;
+                    z-index: 1;
+                }
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    background: url('../../assets/images/Vector2.svg') no-repeat;
+                    background-size: 16px 16px;
+                    position: absolute;
+                    top: 0;
+                    left: 2px;
+                    z-index: 2;
+                    opacity: 0;
+                    transition: opacity 0.3s linear;
+                }
+            }
+        }
+    }
+}

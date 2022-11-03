@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "images": "certificate.svg",
+        "title": "Качество топлива",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    },
+    {
+        "id": 2,
+        "images": "clock.svg",
+        "title": "Бережем ваше время и нервы",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    },
+    {
+        "id": 3,
+        "images": "ruble.svg",
+        "title": "Цена",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    },
+    {
+        "id": 4,
+        "images": "place.svg",
+        "title": "Ваш комфорт—наша забота",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    },
+    {
+        "id": 5,
+        "images": "shield.svg",
+        "title": "Безопасность процесса",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    },
+    {
+        "id": 6,
+        "images": "way.svg",
+        "title": "Несколько ТС в одном месте?",
+        "text": "Aliquam rhoncus et massa adipiscing risus leo nec lacus, sagittis. Eu, purus ac nisi sit eget sed et, adipiscing felis."
+    }
+]

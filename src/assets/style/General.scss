@@ -1,0 +1,37 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+p, h1 {
+    color: black;
+}
+
+p, button, h1, h3, label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+    width: 100%;
+}
+
+.section-white {
+    background: #FFFFFF;
+}
+
+.section-gray {
+    background: #F9F9F9;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.title-block {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}

@@ -1,0 +1,23 @@
+.btn {
+    background: #098FCF;
+    order: 0;
+    flex-grow: 0;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 32px;
+    img {
+        position: relative;
+        margin-right: 10px;
+    }
+    .btn-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
