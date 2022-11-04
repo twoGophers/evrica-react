@@ -22,15 +22,17 @@ export default function FuelWithDelivery({ fuel }) {
     const [price, setPrice] = useState(0);
     const [total, setTotal] = useState(0);
     const [difference, setDifference] = useState(0);
+    const [fuelName, setFuelName] = useState(0);
 
     const checkedFuel = (item) => {
         setPrice(item.cash);
         setDifference(item.cash - item.noncash);
+        handleCost(fuelName);
     }
 
     const handleCost = (e) => {
-        let totalPrice = e * price;
-        setTotal(totalPrice);
+        setFuelName(e)
+        setTotal(fuelName * price);
     }
 
   return (
@@ -74,10 +76,10 @@ export default function FuelWithDelivery({ fuel }) {
                         <label htmlFor="range">Объем топлива</label>
                         <div className='questionnaire__field'>
                             <p className='form-input'>{range} литров</p>
-                            <input type="range" name="" id="range" min="0" onChange={(e) => {
+                            <input type="range" name="" id="range"  onChange={(e) => {
                                 setRange(e.target.value)
                                 handleCost(e.target.value)
-                                }} value={range} step="1" />
+                                }} value={range}  />
                         </div>
                     </div>
                     <div className="questionnaire__block">
@@ -115,13 +117,13 @@ export default function FuelWithDelivery({ fuel }) {
                     <hr />
                     <div className="calculator-cost">
                         <p className='calculator-cost__name'>Стоимость топлива</p>
-                        <p className='calculator-cost__name'>{total} ₽</p>
+                        <p className='calculator-cost__name'>{ (range * price).toFixed(2) || 77350.00.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1 ') } ₽</p>
                     </div>
                     <hr />
                     <div className="calculator-liter liter">
                         <div className='liter-head'>
                             <p className='calculator-cost__name'>Цена за литр:</p>
-                            <p className='calculator-cost__name'>{price} ₽</p>
+                            <p className='calculator-cost__name'>{price.toFixed(2) || 45.50} ₽</p>
                         </div>
                         <p className='calculator__text'>Цена и стоимость указаны ориентировочно.</p>
                         <p className='calculator__text'>Точные цену и стоимость собщит наш менеджер при подтверждении заявки.</p>

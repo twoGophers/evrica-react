@@ -1,0 +1,33 @@
+.advantages{
+    &__block{
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__block-item {
+        width: 31%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background: #fff;
+        img {
+            margin-right: 19px;
+        }
+    }
+    &__block-item-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    &__block-item-text {
+        margin-top: 12px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

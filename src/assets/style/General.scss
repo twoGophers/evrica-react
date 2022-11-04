@@ -9,7 +9,7 @@ p, h1 {
     color: black;
 }
 
-p, button, h1, h3, label {
+p, button, h1, h3, a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,4 +34,10 @@ p, button, h1, h3, label {
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    background: #098FCF;
 }

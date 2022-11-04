@@ -13,11 +13,23 @@ export default function HowWeWork({ howWeWork }) {
             { howWeWork.map (item => (
               <div key={item.id} className="how-we-work__block-item">
                 <div className="how-we-work__block-item-head">
-                  <img className='how-we-work__block-item-head-img' src={require(`../../assets/images/${item.image}`)} alt={require(`../../assets/images/${item.image}`)} srcSet={require(`../../assets/images/${item.image}`)} />
+                  <img 
+                    className='how-we-work__block-item-head-img' 
+                    src={require(`../../assets/images/${item.image}`)} 
+                    alt={require(`../../assets/images/${item.image}`)} 
+                    srcSet={require(`../../assets/images/${item.image}`)} 
+                  />
                   <div className="how-we-work__time">
                     <p>{item.time}</p>
                     { item.vector &&
-                      <img className='how-we-work__block-item-head-vector' src={require(`../../assets/images/${item.vector}`)} alt={require(`../../assets/images/${item.vector}`)} srcSet={require(`../../assets/images/${item.vector}`)} />
+                      <a href="/">
+                      <img 
+                        className='how-we-work__block-item-head-vector' 
+                        src={require(`../../assets/images/${item.vector}`)} 
+                        alt={require(`../../assets/images/${item.vector}`)} 
+                        srcSet={require(`../../assets/images/${item.vector}`)} 
+                      />
+                      </a>
                     }
                   </div>
                 </div>

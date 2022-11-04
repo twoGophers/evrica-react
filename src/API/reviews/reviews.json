@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "user": "Гусев Вячеслав",
+        "firm": "Индивидуальный предприниматель",
+        "text": "Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.",
+        "url": "/"
+    },
+    {
+        "id": 2,
+        "user": "Зеленов Евгений",
+        "firm": "Гененеральный директор трансопртной компании",
+        "text": "Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.",
+        "url": "/"
+    },
+    {
+        "id": 3,
+        "user": "Гусев Вячеслав",
+        "firm": "Индивидуальный предприниматель",
+        "text": "Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.",
+        "url": "/"
+    },
+    {
+        "id": 4,
+        "user": "Зеленов Евгений",
+        "firm": "Гененеральный директор трансопртной компании",
+        "text": "Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.",
+        "url": "/"
+    }
+]

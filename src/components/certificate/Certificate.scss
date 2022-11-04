@@ -1,0 +1,29 @@
+.certificate{
+    position: relative;
+    &__image {
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+        padding: 28px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+    &__navigation {
+        display: flex;
+        flex-direction: row;
+        column-gap: 16px;
+    }
+    .button-navigation {
+        border: 1px solid #D5D5D5;
+        transition: 0.3s;
+        padding: 12px;
+        &:hover {
+            background: rgb(245, 245, 245);
+        }
+    }
+}
